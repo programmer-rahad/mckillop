@@ -1,0 +1,8 @@
+@media print {
+   header,#banner-slides,.bmc-left,#footer-top-boxes,footer {
+       display: none;
+   }
+   #bylawys-main-content {
+       margin-top: 0;
+   }
+}

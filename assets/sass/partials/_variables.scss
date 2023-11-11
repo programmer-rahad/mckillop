@@ -1,0 +1,86 @@
+// Colors: 
+$light-green: #AFD137;
+$dark-green: #637F26;
+$light-blue: #26ABE2;
+$dark-blue: #1c2e41;
+$yellow: #FCCB2B;
+$light-brown: #D2A22A;
+
+// Font families
+$primary-font: 'Open Sans', Helvetica, Arial, sans-serif;
+$secondary-font: 'Rokkitt', serif;
+
+
+// Others
+$primary-font-size: 14px;
+
+@mixin xs-max {
+  @media (max-width: 384px) {
+    @content;
+  }
+}
+@mixin sm-min {
+  @media (min-width: 385px) {
+    @content;
+  }
+}
+@mixin sm-max {
+  @media (max-width: 479px) {
+    @content;
+  }
+}
+@mixin mobile-min {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+@mixin mobile-max {
+  @media (max-width: 575px) {
+    @content;
+  }
+}
+@mixin tab-min {
+  @media (min-width: 576px) {
+    @content;
+  }
+}
+@mixin tab-max {
+  @media (max-width: 767px) {
+    @content;
+  }
+}
+@mixin md-min {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin md-max {
+  @media (max-width: 991px) {
+    @content;
+  }
+}
+@mixin lg-min {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin lg-max {
+  @media (max-width: 1199px) {
+    @content;
+  }
+}
+@mixin xl-min {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}
+@mixin rwd-min($width) {
+  @media(min-width: $width + 'px') {
+    @content;
+  }
+}
+@mixin rwd-max($width) {
+  @media(max-width: $width + 'px') {
+    @content;
+  }
+}

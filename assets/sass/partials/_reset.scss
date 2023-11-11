@@ -1,0 +1,150 @@
+/* Reset */ 
+@import url('https://fonts.googleapis.com/css2?family=Oregano&family=Poppins:wght@400;600&family=Roboto:wght@400;500;700&display=swap');
+// font-family: 'Oregano', cursive;
+// font-family: 'Poppins', sans-serif;
+// font-family: 'Roboto', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::after,
+::before {
+  box-sizing: border-box;
+}
+html {
+  font-size: $primary-font-size; 
+}
+body {
+  font-family: $primary-font;
+  color: $primary-color;
+  // line-height: 30px; 
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: .45s;
+}
+h2 {
+  // line-height: 1.2;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+button {
+  outline: none;
+}
+.container {
+  max-width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+// @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+// @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+// @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,500;0,700;1,400&display=swap");
+
+// *::before,
+// *::after {
+//   box-sizing: border-box;
+// }
+
+// html {
+//   font-size: $primary-font-size;
+// font-family: $primary-font;
+// }
+
+// ul {
+//   list-style: none;
+// }
+
+// a:hover,
+// a {
+//   text-decoration: none;
+//   display: inline-block;
+// }
+
+input {
+  outline: 0;
+  // border: none;
+  // &[type="submit"] {
+  //   cursor: pointer;
+  // }
+}
+// textarea {
+//   outline: none;
+// }
+// button {
+// outline: none;
+// border: 1px solid #ddd;
+// font-size: 1rem;
+// cursor: pointer;
+// }
+
+// Chrome, Safari, Edge, Opera
+// input::-webkit-outer-spin-button,
+// input::-webkit-inner-spin-button {
+//   -webkit-appearance: none;
+//   margin: 0;
+// }
+// Firefox
+// input[type=number] {
+//   -moz-appearance: textfield;
+// }
+
+// p {
+//     color: #ffffff;
+// font-size: $primary-font-size;
+// letter-spacing: .5px;
+// line-height: 26px;
+// margin-top: 0;
+// margin-bottom: 15px;
+// }
+
+// h1,
+// h2,
+// h3,
+// h4,
+// h5,
+// h6 {
+// margin-top: 0;
+// margin-bottom: 20px;
+// }
+// .container {
+//   padding-left: 15px;
+//   padding-right: 15px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   @media(min-width: 768px) {
+//     width: 720px;
+//   }
+//   @media(min-width: 992px) {
+//     width: 970px;
+//   }
+//   @media(min-width: 1200px) {
+//     width: 1170px;
+//   }
+// }
+
+// .container {
+//   margin: 20px auto;
+// }
+
+// .box {
+//   width: 600px;
+//   margin: 140px auto;
+//   background: #fff;
+// display: table;
+// }
+// .box-row {
+//   display: table-row;
+// }
+// .box-cell {
+//   display: table-cell;
+// }
+

@@ -1,0 +1,19 @@
+a.common-btn {
+  font-family: $secondary-font;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: $violet;
+  padding: 10px 40px;
+  border-radius: 30px;
+  &:hover {
+  }
+}
+.para-box {
+  h4 {
+  }
+  p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+}

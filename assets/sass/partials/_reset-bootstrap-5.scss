@@ -1,0 +1,73 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Rokkitt:wght@300;400;500;600;700&display=swap');
+html {
+  font-size: $primary-font-size;
+}
+body {
+  font-size: $primary-font-size;
+  font-family: $primary-font;
+  line-height: 25px; 
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $secondary-font;
+  margin-bottom: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+}
+img {
+  max-width: 100%;
+}
+
+
+// For Bootstrap
+p {
+  margin-bottom: 0;
+}
+input {
+outline: 0;
+}
+
+// Common Styles
+
+#home-calendar {
+  .monthly-cal,
+  .monthly-reset,
+  .monthly-header-title-date {
+    line-height: 17px;
+    font-weight: 600;
+  }
+}
+
+.btnScrollup {
+  position: fixed;
+  bottom: 1rem;
+  right: 9rem;
+  color: rgb(255,255,255);
+  cursor: pointer;
+  padding: 0.65rem 1rem 0.65rem;
+  display: none;
+  border: none;
+  -webkit-transition: background 300ms ease;
+  -moz-transition: background 300ms ease;
+  -o-transition: background 300ms ease;
+  transition: background 300ms ease;
+  z-index: 1;
+  background: #45a3c7;
+  &:hover {
+      color: rgb(255,255,255);
+      background: #274564;
+  }
+}

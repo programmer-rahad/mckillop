@@ -1,0 +1,113 @@
+footer {
+  background-color: #7e9c39;
+  * {
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    line-height: 23px;
+  }
+  h3 {
+    font-family: $secondary-font;
+    font-size: 16px;
+    padding-left: 15px;
+    @include md-max {
+      padding-left: 0;
+      margin-top: 25px;
+    }
+  }
+  p.office-hours {
+    line-height: 19px;
+    padding-left: 15px;
+    margin-top: 10px;
+    @include md-max {
+      padding-left: 0;
+      margin-top: 0;
+    }
+  }
+  .container {
+    display: flex;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 35px 0;
+    @include md-max {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    > div {
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 15px;
+      padding-right: 15px;
+      border-right: 1px solid rgba(255, 255, 255, 0.15);
+      @include md-max {
+        border: none;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        width: auto !important;
+      }
+      &:first-child {
+        width: 25%;
+        @include lg-max {
+          width: 20%;
+        }
+        @include md-max {
+          margin-bottom: 20px;
+        }
+      }
+      &:last-child,
+      &:nth-child(2) {
+        border-right: none;
+      }
+      &.footer-address {
+        padding-left: 30px;
+        @include lg-max {
+          padding-left: 15px;
+        }
+        a {
+          padding-left: 20px;
+          position: relative;
+          &:hover {
+            color: #f1931a;
+          }
+          @include md-max {
+            br {
+              display: none;
+            }
+          }
+          i {
+            left: 0;
+            top: 7px;
+            position: absolute;
+          }
+        }
+      }
+      &.footer-contact-numbers {
+        @include lg-max {
+          padding-left: 0;
+        }
+        a {
+          &:hover {
+            color: #f1931a;
+          }
+        }
+      }
+      &.footer-copyright {
+        padding-left: 30px;
+        @include lg-max {
+          padding-left: 15px;
+        }
+        @include md-max {
+          margin-top: 30px;
+        }
+        a {
+          @include lg-min {
+            margin-top: 30px;
+          }
+        }
+      }
+    }
+  }
+}
